@@ -9,5 +9,4 @@ driver.get("http://uitestingplayground.com/classattr")
 button = driver.find_element(By.CLASS_NAME, "btn-primary")
 button.click()
 
-sleep(5)
 driver.quit()
